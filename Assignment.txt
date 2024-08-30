@@ -1,0 +1,85 @@
+Q1. How to check if git is available on your system.
+
+Ans:- Open your terminal (Command Prompt, PowerShell, or any other terminal/command-line interface).
+
+   Type the following command:
+
+                                - git --version
+
+Q2. How to initialize a new Git repository?
+
+Ans:- By using following setps:-
+1. Open Your Terminal:
+Use your system's terminal or command-line interface (e.g., Command Prompt on Windows, Terminal on macOS, or a shell on Linux).
+2. Navigate to Your Project Directory:
+Use the cd command to navigate to the directory where you want to create the Git repository:
+
+                                                                                             - cd /path/to/your/project
+
+Q3. How to tell git about your name and email ?
+
+Ans:- Open your terminal.
+
+Set your name:
+git config --global user.name "Your Name"
+Replace "Your Name" with the name you want to associate with your commits.
+
+Set your email:
+
+git config --global user.email "youremail@example.com"
+
+Q4. How to add a file to the staging area ?
+
+Ans:- Open Your Terminal:
+Use the terminal or command-line interface (CLI) of your operating system.
+2. Navigate to Your Repository:
+Use the cd command to navigate to the directory containing your Git repository:
+bash.
+
+cd /path/to/your/repository
+
+3. Add a File to the Staging Area:
+Use the git add command followed by the file name to add a specific file to the staging area:
+
+
+Q5.How to remove a file from the staging area ?
+
+Ans:-  Open Your Terminal:
+Use your terminal or command-line interface (CLI) of your operating system.
+2. Navigate to Your Repository:
+Use the cd command to navigate to the directory containing your Git repository:
+
+cd /path/to/your/repository
+
+3. Remove a File from the Staging Area:
+Using git restore (Preferred):
+
+If you’re using Git 2.23 or later, you can use:
+
+
+Q6.How to make a commit ?
+
+Ans :- By using this we can able to commit :-
+          
+             cd /path/to/your/repository
+
+Q7.How to send your changes to a remote repository ?
+
+Ans :- By using this, we can able to do so :- 
+            cd /path/to/your/repository
+git add .
+git commit -m "Add new feature"
+git push origin main
+
+
+Q8.What is the difference between clone and pull ?
+
+Ans :- git clone:
+Purpose: git clone is used to create a copy of an existing Git repository from a remote source onto your local machine.
+
+Use Case: You use git clone when you want to start working with a repository that you don't already have on your local system.
+
+git pull:
+Purpose: git pull is used to fetch and merge changes from a remote repository into your current local branch.
+
+Use Case: You use git pull when you already have a cloned repository on your local machine and want to update it with the latest changes from the remote repository.
